@@ -1,0 +1,27 @@
+{
+  "name": "hardwarehub-backend",
+  "version": "1.0.0",
+  "description": "Backend for Hardware Hub, a platform for buying, renting tools, and hiring professionals.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "studio": "node ./node_modules/prisma/build/index.js studio"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@prisma/client": "6.19.2",
+    "nodemon": "^3.0.2",
+    "prisma": "6.19.2"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}

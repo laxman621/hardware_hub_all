@@ -1,0 +1,22 @@
+/* Minimal App CSS - Most styles now use Tailwind classes directly in components */
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #eef1f4;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom gradient background for login page */
+.bg-gradient-radial {
+  background: 
+    radial-gradient(circle at 12% 18%, rgba(193, 106, 51, 0.16), transparent 48%),
+    radial-gradient(circle at 88% 12%, rgba(34, 62, 86, 0.22), transparent 45%),
+    radial-gradient(circle at 78% 88%, rgba(15, 26, 36, 0.18), transparent 46%);
+}
